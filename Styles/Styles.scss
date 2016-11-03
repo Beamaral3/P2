@@ -1,0 +1,58 @@
+/*HEAD*/
+.menu{
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: flex-end;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 27px;
+  line-height: 30px;
+  color: #e8e8e8;
+  margin: 20px;
+}
+
+/*TEXTO*/
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 7%;
+  margin-top: 100%;
+  padding-top: 2%;
+}
+
+p{
+  color:#4a5767;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+a:link, a:visited {color: #fff; text-decoration: none;}
+a:hover, a:active {color: #0080ff;text-decoration: none;}
+
+/*PORTFOLIO*/
+.container{
+  width: 250px;
+  height: 250px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+}
+img{
+width: 50px;
+}
+
+/*CONTACTS*/
+.icon{
+
+}
+
+#mail{
+  width: 25%;
+}
